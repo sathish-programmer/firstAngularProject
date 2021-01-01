@@ -1,0 +1,14 @@
+.fPass{
+    float: right;
+    margin: 0 0 5px 0;
+}
+
+.fPass a{
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.fPass a:hover{
+    text-decoration: underline;
+}

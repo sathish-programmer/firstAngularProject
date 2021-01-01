@@ -1,0 +1,48 @@
+<div class="card bg-light regForm">
+<article class="card-body mx-auto" style="max-width: 400px;">
+	<h4 class="card-title mt-3 text-center">Create Account</h4>
+	<p class="text-center">Get started with your free account</p>
+	<form (ngSubmit)="onSubmit(signInForm)" #signInForm="ngForm">
+	<div class="form-group input-group">
+		<div class="input-group-prepend">
+		    <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+		 </div>
+        <input name="uname" class="form-control" placeholder="Full name" type="text" ngModel>
+    </div>
+    <div class="form-group input-group">
+    	<div class="input-group-prepend">
+		    <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
+		 </div>
+        <input name="uemail" class="form-control" placeholder="Email address" type="email" ngModel>
+    </div>
+    <div class="form-group input-group">
+    	<div class="input-group-prepend">
+		    <span class="input-group-text"> <i class="fa fa-phone"></i> </span>
+		</div>
+		<select class="custom-select">
+			<option >+1</option>
+			<option selected="">+91</option>
+			<option >+42</option>
+		</select>
+    	<input name="unumber" class="form-control" placeholder="Phone number" type="text" ngModel>
+    </div> 
+    
+    <div class="form-group input-group">
+    	<div class="input-group-prepend">
+		    <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+		</div>
+        <input class="form-control" placeholder="Create password" type="password" name="upass" ngModel>
+    </div>
+    <div class="form-group input-group">
+    	<div class="input-group-prepend">
+		    <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+		</div>
+        <input class="form-control" placeholder="Repeat password" type="password">
+    </div>                                   
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary btn-block"> Create Account  </button>
+    </div>      
+    <p class="text-center">Have an account? <a routerLink="/login">Log In</a> </p>                                                                 
+</form>
+</article>
+</div>

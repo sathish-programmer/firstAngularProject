@@ -1,0 +1,26 @@
+.error-template {
+    padding: 80px 15px;
+    text-align: center;
+}
+.error-actions {
+    margin-top:50px;
+    margin-bottom:50px;
+    
+}
+
+.error-details{
+    margin:0 0 30px 0 !important;
+}
+
+h1{
+    margin: 25px 0 0 0;
+}
+.supt{
+    border: 2px solid #252d8e;
+}
+.error-actions .btn { 
+    margin-right:10px; 
+}
+a{
+    border-radius: 0 !important;
+}

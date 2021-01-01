@@ -1,0 +1,22 @@
+.bannerImg1{
+    background:transparent url('assets/images/banner7.jpg') no-repeat center center /cover;
+    height: 450px;
+}
+
+.bannerImg{
+    background:transparent url('assets/images/banner9.jpg') no-repeat center center /cover;
+    height: 500px;
+}
+
+.productImg{
+    height: 280px !important;
+    object-fit: cover !important;
+}
+
+.card{
+    height: 430px;
+}
+
+.ratingTxt{
+    color: #9a8f8f;
+}

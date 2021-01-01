@@ -1,0 +1,30 @@
+<div class="card bg-light regForm">
+    <article class="card-body mx-auto" style="max-width: 400px;">
+        <h4 class="card-title mt-3 text-center">Login User</h4>
+        <form (ngSubmit)="onSubmit(loginInForm)" #loginInForm="ngForm">
+        <div class="form-group input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
+             </div>
+            <input name="uemail" class="form-control" placeholder="Email address" type="email" ngModel>
+        </div>
+        
+        <div class="form-group input-group mb-0">
+            <div class="input-group-prepend">
+                <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+            </div>
+            <input class="form-control" placeholder="Password" type="password" name="upass" ngModel>
+        </div>    
+        
+        <div class="fPass">
+            <a>Forgot Password?</a>
+        </div>
+
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary btn-block"> Login </button>
+        </div>      
+        <p class="text-center">Don't have an account? <a routerLink="/customer_register">Register</a> </p>                                                                 
+    </form>
+    </article>
+    </div>
+    

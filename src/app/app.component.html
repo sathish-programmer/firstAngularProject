@@ -1,0 +1,12 @@
+<div class="container-fluid">
+      <app-header></app-header>
+      <router-outlet></router-outlet>
+      <div *ngif="router.url !== '/customer_register'">
+            <app-feature-slider ></app-feature-slider>
+            <app-product-grid ></app-product-grid>
+            <app-best-seller ></app-best-seller>
+            <app-banner ></app-banner>
+      </div>
+</div>
+      
+<app-footer></app-footer>

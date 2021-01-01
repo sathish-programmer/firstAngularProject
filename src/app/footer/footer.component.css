@@ -1,0 +1,27 @@
+.connectdSocial{
+    background-color: #252d8e;
+    color: #fff;
+}
+
+.socialIcon a{
+    color: #fff;
+}
+
+footer{
+    background: #1f1c1c;
+    color: #fff;
+    font-size: 15px;
+}
+
+.footer-copyright{
+    background-color: #000;
+}
+
+a{
+    color: #fff;
+    font-size: 15px;
+}
+
+i{
+    cursor: pointer;
+}
