@@ -17,12 +17,14 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { LoginUserComponent } from './login-user/login-user.component';
 import { GetLocationComponent } from './get-location/get-location.component';
 import { ShowBlogComponent } from './show-blog/show-blog.component';
+import { AuthenticationService } from './service/authentication/authentication.service';
+import { StartupHeaderComponent } from './startup-header/startup-header.component';
 
 const routes: Routes = [
   {path:'customer_register', component:RegisterUserComponent},
   {path:'login', component:LoginUserComponent},
   {path:'web', component:ShowBlogComponent},
-  {path: '', redirectTo: '/web', pathMatch: 'full'},
+  {path: '', redirectTo: '/login', pathMatch: 'full'},
   {path: '**', component: PageNotFoundComponent}
   
 ];
@@ -40,7 +42,8 @@ const routes: Routes = [
     PageNotFoundComponent,
     LoginUserComponent,
     GetLocationComponent,
-    ShowBlogComponent
+    ShowBlogComponent,
+    StartupHeaderComponent
   ],
   imports: [
     BrowserModule,
@@ -48,7 +51,9 @@ const routes: Routes = [
     FormsModule,
     RouterModule.forRoot(routes)
   ],
-  providers: [],
+  providers: [
+    AuthenticationService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

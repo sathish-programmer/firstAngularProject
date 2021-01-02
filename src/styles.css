@@ -9,14 +9,18 @@
 }
 
 .productImg{
-    height: 280px !important;
+    height: 235px !important;
     object-fit: cover !important;
 }
 
 .card{
-    height: 430px;
+    height: 385px;
 }
 
 .ratingTxt{
     color: #9a8f8f;
+}
+
+.km{
+    line-height: 50px;
 }

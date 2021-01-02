@@ -55,10 +55,42 @@
 .fa-map-marker:hover{
   color: #000;
 }
+.cardQuan{
+  padding: 2px 4px;
+  margin: -3px 0px 0 10px;
+  position: absolute;
+  font-size: 10px;
+  color: #fff;
+  background: red;
+}
+
+.Logout{
+  cursor: pointer;
+}
+
+.dropdown-toggle{
+  border-radius: 0 !important;
+}
+
+.dropdown-menu{
+  min-width: 5rem !important;
+  border-radius: 0 !important;
+}
+
+.logout{
+  border-top: 1px solid #ccc;
+}
+
+.settings{
+  margin-bottom: 5px;
+}
 
 @media screen and (max-width: 600px) {
 .search-container {
     float: none;
     display: none;
+  }
+  .signUp{
+    padding-left: 0 !important;
   }
 }

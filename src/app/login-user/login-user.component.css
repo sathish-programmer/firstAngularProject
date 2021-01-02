@@ -1,6 +1,6 @@
 .fPass{
     float: right;
-    margin: 0 0 5px 0;
+    margin: 5px 0 15px 0;
 }
 
 .fPass a{
@@ -11,4 +11,10 @@
 
 .fPass a:hover{
     text-decoration: underline;
+}
+
+.errorAlt{
+    padding: 5px 8px;
+    font-size: 12px;
+    font-weight: 500;
 }
